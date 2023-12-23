@@ -8,6 +8,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 
 import ban1 from "../assets/banner/ban1.jpg"
+import ban2 from "../assets/banner/ban2.jpg"
+import ban3 from "../assets/banner/ban3.jpg"
 
 const Banner = () => {
     return (
@@ -24,19 +26,13 @@ const Banner = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper h-[85vh]"
       >
-        <SwiperSlide><img src={ban1} alt="" /></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img className='object-cover md:h-full md:w-full' src={ban1} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='object-cover md:h-full md:w-full' src={ban2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='object-cover md:h-full md:w-full' src={ban3} alt="" /></SwiperSlide>
       </Swiper>
         </div>
     );

@@ -1,10 +1,11 @@
-import Footer from "../Footer/Footer";
+import Banner from "../../Log/Banner";
+
 
 
 const Home = () => {
     return (
         <div>
-            <Footer />
+            <Banner />
         </div>
     );
 };

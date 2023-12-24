@@ -6,7 +6,7 @@ import NavBar from "../NavBar/NavBar";
 const RootLayout = () => {
     return (
         <div>
-            {/* <NavBar /> */}
+            <NavBar />
             <Outlet />
             {/* <Footer /> */}
         </div>

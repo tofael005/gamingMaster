@@ -13,6 +13,7 @@ const NavBar = () => {
                     <Link to="/about"><li>About</li></Link>
                     <Link to="/about"><li>Portfolio</li></Link>
                     <Link to="/about"><li>News</li></Link>
+                    <Link><input type="button" value="Contact" /></Link>
                 </ul>
             </div>
         </div>

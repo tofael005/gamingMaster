@@ -3,6 +3,9 @@ import RootLayout from "../Layout/RootLayout";
 import Home from "../Pages/Home/Home";
 import Error from "../components/Error";
 import About from "../Pages/About/About";
+import Portfolio from "../Pages/Portfolio/Portfolio";
+import News from "../Pages/News/News";
+import Contact from "../Log/Contact";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 element: <About />
+            },
+            {
+                path: "/portfolio",
+                element: <Portfolio />
+            },
+            {
+                path: "/news",
+                element: <News />
+            },
+            {
+                path: "/contact",
+                element: <Contact />
             }
         ])
     }

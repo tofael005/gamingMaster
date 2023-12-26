@@ -1,19 +1,19 @@
 import { Link } from "react-router-dom";
-import 
+import logo from "../assets/icon/logo.png"
 
 const NavBar = () => {
     return (
-        <div className="mx-3 border-b-2">
+        <div className="px-3 bg-gradient-to-r from-[#1E1E1E] to-indigo-900 text-white">
             <div className="flex justify-between items-center py-4">
                 <div>
-                    <img src={logo} alt="" />
+                    <Link to="/"><img className="w-[70px]" src={logo} alt="" /></Link>
                 </div>
                 <ul className="flex items-center gap-7">
                     <Link to="/"><li>Home</li></Link>
-                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/about"><li>About us</li></Link>
                     <Link to="/portfolio"><li>Portfolio</li></Link>
                     <Link to="/news"><li>News</li></Link>
-                    <Link to="/contact"><input className="cursor-pointer bg-red-400 px-7 py-2 rounded" type="button" value="Contact" /></Link>
+                    <Link to="/contact"><input className="cursor-pointer hover:bg-blue-500 duration-300 hover:text-red-400 font-semibold bg-red-400 px-7 py-2 rounded" type="button" value="Contact" /></Link>
                 </ul>
             </div>
         </div>

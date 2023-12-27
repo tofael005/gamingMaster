@@ -1,14 +1,16 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
-// import Footer from "../Pages/Footer/Footer";
+import Footer from "../Pages/Footer/Footer";
 
 
 const RootLayout = () => {
     return (
-        <div>
+        <div className="bg-gradient-to-tr from-blue-500 to-indigo-900">
             <NavBar />
-            <Outlet />
-            {/* <Footer /> */}
+            <div>
+                <Outlet />
+            </div>
+            <Footer />
         </div>
     );
 };

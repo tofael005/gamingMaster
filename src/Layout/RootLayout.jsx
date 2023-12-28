@@ -5,9 +5,9 @@ import Footer from "../Pages/Footer/Footer";
 
 const RootLayout = () => {
     return (
-        <div className="bg-gradient-to-tr from-blue-500 to-indigo-900">
+        <div className="bg-gradient-to-t from-indigo-600 to-neutral-900">
             <NavBar />
-            <div>
+            <div className="md:min-h-[calc(100vh-100px)]">
                 <Outlet />
             </div>
             <Footer />

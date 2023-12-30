@@ -15,7 +15,7 @@ const NavBar = () => {
 
                 <span>
                     {
-
+                        toggle ? <IoMdClose  />
                     }
                 </span>
 

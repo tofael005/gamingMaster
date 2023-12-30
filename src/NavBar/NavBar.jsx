@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import logo from "../assets/icon/logo.png"
 import { useState } from "react";
 
+import { IoMdClose } from "react-icons/io";
+
 const NavBar = () => {
     const [toggle, setToggle] = useState()
     return (
@@ -13,7 +15,7 @@ const NavBar = () => {
 
                 <span>
                     {
-                        
+
                     }
                 </span>
 

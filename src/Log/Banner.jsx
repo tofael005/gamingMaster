@@ -27,7 +27,7 @@ const Banner = () => {
         }}
         navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-[85vh]"
+        className="mySwiper md:h-[85vh]"
       >
         <SwiperSlide>
 
@@ -39,7 +39,7 @@ const Banner = () => {
               <h1 className='md:text-5xl font-bold md:my-5 text-2xl'>Work that we produce for our clients</h1>
               <p className='text-transparent md:text-white'>Play the game, learn, thrive, and repeat. Be calm, be a gamer, be a game lover. Life is too short to play a bad game. The future is a game.</p>
               <Link to="/about">
-                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-blue-500 mt-12 duration-300 md:text-xl hover:text-red-400 font-semibold bg-red-400 px-7 py-2 rounded' type="button" value="Get more details" />
+                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-[#221F39] mt-12 duration-300 md:text-xl hover:text-blue-400 font-semibold bg-blue-900 px-7 py-2 rounded' type="button" value="Get more details" />
               </Link>
             </div>
           </div>
@@ -54,7 +54,7 @@ const Banner = () => {
               <h1 className='md:text-5xl font-bold md:my-5 text-2xl'>Forge Your Destiny, Conquer the Challenge</h1>
               <p className='text-transparent md:text-white'>Play the game, learn, thrive, and repeat. Be calm, be a gamer, be a game lover. Life is too short to play a bad game. The future is a game.</p>
               <Link to="/about">
-                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-blue-500 mt-12 duration-300 md:text-xl hover:text-red-400 font-semibold bg-red-400 px-7 py-2 rounded' type="button" value="Get more details" />
+                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-[#221F39] mt-12 duration-300 md:text-xl hover:text-blue-400 font-semibold bg-blue-900 px-7 py-2 rounded' type="button" value="Get more details" />
               </Link>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Banner = () => {
               <h1 className='md:text-5xl font-bold md:my-5 text-2xl'>Gaming Redefined, Adventure Refined</h1>
               <p className='text-transparent md:text-white'>Play the game, learn, thrive, and repeat. Be calm, be a gamer, be a game lover. Life is too short to play a bad game. The future is a game.</p>
               <Link to="/about">
-                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-blue-500 mt-12 duration-300 md:text-xl hover:text-red-400 font-semibold bg-red-400 px-7 py-2 rounded' type="button" value="Get more details" />
+                <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-[#221F39] mt-12 duration-300 md:text-xl hover:text-blue-400 font-semibold bg-blue-900 px-7 py-2 rounded' type="button" value="Get more details" />
               </Link>
             </div>
           </div>

@@ -19,7 +19,7 @@ const NavBar = () => {
                     }
                 </span>
 
-                <ul className="flex items-center gap-7">
+                <ul className={`flex md:w-[800px] items-center duration-300 flex-col py-4 md:p-0 text-white md:text-gray-900 bg-opacity-100 top-20 bg-black md:bg-transparent w-full text-center md:flex-row gap-4 absolute md:static z-50 ${toggle ? "left-0" : "-left-full"}`}>
                     <Link to="/"><li>Home</li></Link>
                     <Link to="/about"><li>About Us</li></Link>
                     <Link to="/portfolio"><li>Portfolio</li></Link>

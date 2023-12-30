@@ -3,7 +3,7 @@ import logo from "../assets/icon/logo.png"
 import { useState } from "react";
 
 import { IoMdClose } from "react-icons/io";
-
+import { GiHamburgerMenu } from "react-icons/gi";
 const NavBar = () => {
     const [toggle, setToggle] = useState()
     return (
@@ -15,7 +15,7 @@ const NavBar = () => {
 
                 <span>
                     {
-                        toggle ? <IoMdClose  />
+                        toggle ? <IoMdClose  onClick={() => setToggle(!toggle)}/> : <GiHamburgerMenu onClick={() => setToggle(!toggle)}/>
                     }
                 </span>
 

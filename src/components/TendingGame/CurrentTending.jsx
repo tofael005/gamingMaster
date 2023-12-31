@@ -14,31 +14,33 @@ const CurrentTending = () => {
                 <h1 className="md:text-2xl">Currently Trending Games</h1>
                 <input className="bg-blue-900 duration-300 md:px-4 md:py-2 px-2 py-1 rounded-md cursor-pointer hover:bg-[#221F39]" type="button" value="SEE ALL" />
             </div>
+
+
             <div className="mt-10 grid md:grid-cols-4 gap-4">
                 <div className="text-center">
-                    <img className="block mx-auto" src={game1} alt="" />
-                    <div className="flex itmes-center gap-2 text-xl md:ml-20 ml-28 mt-3">
+                    <img className="block mx-auto scale-100 hover:scale-105 duration-300 cursor-pointer" src={game1} alt="" />
+                    <div className="flex itmes-center gap-2 text-xl md:ml-16 ml-24 mt-3">
                         <GiDistraction /> 
                         <p>1234 Followers</p>
                     </div> 
                 </div>
                 <div className="text-center">
-                    <img className="block mx-auto" src={game2} alt="" />
-                    <div className="flex itmes-center gap-2 text-xl md:ml-20 ml-28 mt-3">
+                    <img className="block mx-auto scale-100 hover:scale-105 duration-300 cursor-pointer" src={game2} alt="" />
+                    <div className="flex itmes-center gap-2 text-xl md:ml-16 ml-24 mt-3">
                         <GiDistraction /> 
                         <p>2345 Followers</p>
                     </div> 
                 </div>
                 <div className="text-center">
-                    <img className="block mx-auto" src={game3} alt="" />
-                    <div className="flex itmes-center gap-2 text-xl md:ml-20 ml-28 mt-3">
+                    <img className="block mx-auto scale-100 hover:scale-105 duration-300 cursor-pointer" src={game3} alt="" />
+                    <div className="flex itmes-center gap-2 text-xl md:ml-16 ml-24 mt-3">
                         <GiDistraction /> 
                         <p>5678 Followers</p>
                     </div> 
                 </div>
                 <div className="text-center">
-                    <img className="block mx-auto" src={game4} alt="" />
-                    <div className="flex itmes-center gap-2 text-xl md:ml-20 ml-28 mt-3">
+                    <img className="block mx-auto scale-100 hover:scale-105 duration-300 cursor-pointer" src={game4} alt="" />
+                    <div className="flex itmes-center gap-2 text-xl md:ml-[70px] ml-24 mt-3">
                         <GiDistraction /> 
                         <p>1001 Followers</p>
                     </div> 

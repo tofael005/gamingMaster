@@ -2,7 +2,7 @@
 
 const StayInLoop = () => {
     return (
-        <div className="max-w-[1240px] mx-auto md:mt-28 mt-10 px-3">
+        <div className="max-w-[1240px] mx-auto md:mt-20 mt-10 px-3">
             <h1 className="text-3xl font-bold text-center ">Stay In The Loop</h1>
             <p className="text-center md:w-[750px] mx-auto my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil corporis quas tenetur praesentium quaerat at ut eaque consequatur eos eius qui, eveniet veritatis earum optio vel vitae cum doloremque a.</p>
             <div className="bg-white rounded-md flex flex-col md:flex-row gap-6 items-center  py-10 justify-between px-10">

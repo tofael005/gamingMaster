@@ -12,7 +12,7 @@ const OurRecent = () => {
                 <h1 className="text-3xl font-bold my-5">Our Recent Projects</h1>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
             </div>
-            <div className="grid md:grid-cols-3 gap-6 mt-10">
+            <div className="grid md:grid-cols-3 gap-6 mt-10 mb-14">
                 <img className="w-full md:h-full h-[200px] scale-100 hover:scale-95 duration-300 cursor-pointer" src={pro1} alt="" />
                 <img className="w-full md:h-full h-[200px] scale-100 hover:scale-95 duration-300 cursor-pointer" src={pro2} alt="" />
                 <img className="w-full md:h-full h-[200px] scale-100 hover:scale-95 duration-300 cursor-pointer" src={pro3} alt="" />

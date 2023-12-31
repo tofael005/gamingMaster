@@ -6,6 +6,8 @@ import About from "../Pages/About/About";
 import Portfolio from "../Pages/Portfolio/Portfolio";
 import News from "../Pages/News/News";
 import Contact from "../Log/Contact";
+import AllGame from "../components/TendingGame/AllGame";
+import ProjectAll from "../components/Project/ProjectAll";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
             {
                 path: "/contact",
                 element: <Contact />
+            },
+            {
+                path: "/allGame",
+                element: <AllGame />
+            },
+            {
+                path: "/projectAll",
+                element: <ProjectAll />
             }
         ])
     }

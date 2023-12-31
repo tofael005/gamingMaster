@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import pro1 from "../../assets/project/project1.png"
 import pro2 from "../../assets/project/project2.png"
 import pro3 from "../../assets/project/project3.png"
@@ -19,7 +20,9 @@ const OurRecent = () => {
                 <img className="w-full md:h-full h-[200px] scale-100 hover:scale-95 duration-300 cursor-pointer" src={pro3} alt="" />
                 <img className="w-full md:h-full h-[200px] scale-100 hover:scale-95 duration-300 cursor-pointer" src={pro6} alt="" />
             </div>
-            <input className="bg-[#221F39] block mx-auto mt-6 duration-300 md:px-4 md:py-2 px-2 py-1 rounded-md cursor-pointer hover:bg-blue-900" type="button" value="SEE ALL" />
+            <Link to="/projectAll">
+                <input className="bg-[#221F39] block mx-auto mt-6 duration-300 md:px-4 md:py-2 px-2 py-1 rounded-md cursor-pointer hover:bg-blue-900" type="button" value="SEE ALL" />
+            </Link>
         </div>
     );
 };

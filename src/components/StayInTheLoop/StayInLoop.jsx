@@ -2,7 +2,7 @@
 
 const StayInLoop = () => {
     return (
-        <div>
+        <div className="max-w-[1240px] mx-auto bg-white">
             <h1>Stay In The Loop</h1>
         </div>
     );

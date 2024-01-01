@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/icon/logo.png"
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -18,7 +19,7 @@ const Footer = () => {
                 <div className="text-black">
                     <h1 className="text-2xl font-bold mb-4">About</h1>
                     <p>Zeux</p>
-                    <p className="my-2">Portfolio</p>
+                    <Link to="/portfolio"><p className="my-2">Portfolio</p></Link>
                     <p>Careers</p>
                     <p className="mt-2">Contact Us</p>
                 </div>

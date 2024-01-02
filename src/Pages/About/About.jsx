@@ -33,7 +33,7 @@ const About = () => {
             {/*------------ WHY YOU WORK WE ------- */}
             <h1 className="md:mt-24 text-3xl font-bold mt-10">Why work with us</h1>
             <div className="md:mt-10 mt-5 grid md:grid-cols-3 gap-6">
-                <div className="">
+                <div className="bg-white ">
                     <h1>Get Touch One</h1>
                     <div>
                         <h1>Lorem Ipsum</h1>

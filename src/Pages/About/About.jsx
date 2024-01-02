@@ -8,7 +8,7 @@ const About = () => {
                 <div>
                     <div className="flex items-center gap-2">
                         <h1 className="flex items-center gap-2">Home <IoIosArrowForward /></h1>
-                        <p className="">About</p>
+                        <p className="text-sm text-red-600">About</p>
                     </div>
                 </div>
                 <div>

@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import about from "../../assets/game/about.png"
 import about1 from "../../assets/game/about2.png"
+import team1 from "../../assets/icon/Bill 1.png"
+import team2 from "../../assets/icon/Beverly 1.png"
+import team3 from "../../assets/icon/Claudia 1.png"
+import team4 from "../../assets/icon/Avatar 1.png"
+
 
 import { IoIosArrowForward } from "react-icons/io";
 import { IoMdArrowRoundForward } from "react-icons/io";
@@ -75,11 +80,37 @@ const About = () => {
 
             {/*------ OUR TEAM -------- */}
 
-            <h1>Our Team</h1>
-            <div>
-                <div>
-                    <img src="" alt="" />
+            <h1 className="max-w-[1240px] mx-auto md:mt-24 text-3xl font-bold my-7">Our Team</h1>
+            <div className="max-w-[1240px] mx-auto grid md:grid-cols-4 gap-6 md:px-0 md:mt-10">
+                <div className="bg-[#1C140F] md:w-[300px] md:h-[250px] rounded-md py-6">
+                    <img className="block mx-auto mt-3" src={team1} alt="" />
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold my-2">John Pther</h1>
+                        <p>CEO</p>
+                    </div>
                 </div>
+                <div className="bg-[#1C140F] md:w-[300px] md:h-[250px] rounded-md py-6">
+                    <img className="block mx-auto mt-3" src={team2} alt="" />
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold my-2">John Pther</h1>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div className="bg-[#1C140F] md:w-[300px] md:h-[250px] rounded-md py-6">
+                    <img className="block mx-auto mt-3" src={team3} alt="" />
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold my-2">John Pther</h1>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                <div className="bg-[#1C140F] md:w-[300px] md:h-[250px] rounded-md py-6">
+                    <img className="block mx-auto mt-3" src={team4} alt="" />
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold my-2">John Pther</h1>
+                        <p>CEO</p>
+                    </div>
+                </div>
+                
             </div>
 
         </div>

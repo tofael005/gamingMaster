@@ -1,9 +1,55 @@
-import React from 'react';
+import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
+
+import { CgProfile } from "react-icons/cg";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaSlidersH } from "react-icons/fa";
+
+import vdeo from "../../assets/portfolio/Hero Video.png"
+
 
 const Portfolio = () => {
     return (
-        <div>
-            <h1>Portfolio</h1>
+        <div className="max-w-[1240px] mx-auto md:mt-10 px-3">
+            <div className="flex items-center gap-2">
+                <Link to="/"><h1 className="flex items-center gap-2 cursor-pointer scale-100 hover:scale-95 duration-300">Home <IoIosArrowForward /></h1></Link>
+                <Link to="/about"><p className="text-sm text-red-600 cursor-pointer">Portfolio</p></Link>
+            </div>
+            <h1 className="text-3xl font-semibold my-5">Lorem Ipsum is simply dummy text of the printing and.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+
+            <div className="bg-[#1C140F] grid md:grid-cols-3 md:px-10 md:py-10 mt-10 py-10 md:mt-16 rounded-md">
+                <div className="flex items-center gap-6 mx-auto p-6">
+                    <CgProfile className="text-4xl bg-white text-red-500 p-2 rounded-full" />
+                    <div>
+                        <h1 className="text-2xl font-bold">90+</h1>
+                        <p>Clients</p>
+                    </div>
+                </div>
+                <div className="flex items-center gap-6 mx-auto p-6">
+                    <FaLocationDot className="text-4xl bg-white text-red-500 p-2 rounded-full" />
+                    <div>
+                        <h1 className="text-2xl font-bold">30+</h1>
+                        <p>Countries</p>
+                    </div>
+                </div>
+                <div className="flex items-center gap-6 mx-auto p-6">
+                    <FaSlidersH  className="text-4xl bg-white text-red-500 p-2 rounded-full" />
+                    <div>
+                        <h1 className="text-2xl font-bold">50+</h1>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <img src={vdeo} alt="" />
+                <div>
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, vitae!</h1>
+                </div>
+            </div>
         </div>
     );
 };

@@ -5,6 +5,8 @@ import { CgProfile } from "react-icons/cg";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaSlidersH } from "react-icons/fa";
 
+import { FaQuoteRight } from "react-icons/fa6";
+
 import vdeo from "../../assets/portfolio/Hero Video.png"
 
 
@@ -35,7 +37,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-6 mx-auto p-6">
-                    <FaSlidersH  className="text-4xl bg-white text-red-500 p-2 rounded-full" />
+                    <FaSlidersH className="text-4xl bg-white text-red-500 p-2 rounded-full" />
                     <div>
                         <h1 className="text-2xl font-bold">50+</h1>
                         <p>Projects</p>
@@ -44,10 +46,17 @@ const Portfolio = () => {
             </div>
 
 
-            <div>
+            <div className="flex flex-col md:flex-row gap-6 mt-10 md:mt-20">
                 <img src={vdeo} alt="" />
                 <div>
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, vitae!</h1>
+                    <h1 className="text-2xl font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
+                    <p className="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quasi illo asperiores aperiam ab a quidem esse officia accusamus! Vitae quia hic nostrum consectetur ullam magni temporibus necessitatibus dolore suscipit!</p>
+                    <div>
+                        <div className="flex gap-4 items-center">
+                            <FaQuoteRight />
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

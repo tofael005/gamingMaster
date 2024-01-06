@@ -12,7 +12,7 @@ import vdeo from "../../assets/portfolio/Hero Video.png"
 
 const Portfolio = () => {
     return (
-        <div className="max-w-[1240px] mx-auto md:mt-10 px-3">
+        <div className="max-w-[1240px] mx-auto md:mt-20 px-3">
             <div className="flex items-center gap-2">
                 <Link to="/"><h1 className="flex items-center gap-2 cursor-pointer scale-100 hover:scale-95 duration-300">Home <IoIosArrowForward /></h1></Link>
                 <Link to="/about"><p className="text-sm text-red-600 cursor-pointer">Portfolio</p></Link>
@@ -50,10 +50,22 @@ const Portfolio = () => {
                 <img src={vdeo} alt="" />
                 <div>
                     <h1 className="text-2xl font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
-                    <p className="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quasi illo asperiores aperiam ab a quidem esse officia accusamus! Vitae quia hic nostrum consectetur ullam magni temporibus necessitatibus dolore suscipit!</p>
+                    <p className="my-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quasi illo asperiores aperiam ab a quidem esse officia accusamus! Vitae quia hic nostrum consectetur ullam magni temporibus necessitatibus dolore suscipit!</p>
                     <div>
                         <div className="flex gap-4 items-center">
-                            <FaQuoteRight />
+                            <FaQuoteRight className="bg-green-600 rounded-full p-1 text-2xl"/>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div className="flex gap-4 items-center">
+                            <FaQuoteRight className="bg-green-600 rounded-full p-1 text-2xl my-3"/>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div className="flex gap-4 items-center">
+                            <FaQuoteRight className="bg-green-600 rounded-full p-1 text-2xl mb-3"/>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div className="flex gap-4 items-center">
+                            <FaQuoteRight className="bg-green-600 rounded-full p-1 text-2xl"/>
                             <p>Lorem ipsum dolor sit</p>
                         </div>
                     </div>

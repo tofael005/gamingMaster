@@ -12,6 +12,7 @@ import port1 from "../../assets/portfolio/port1.png"
 import port2 from "../../assets/portfolio/port2.png"
 import port3 from "../../assets/portfolio/port3.png"
 import HappyCus from "./HappyCus";
+import StayInLoop from "../../components/StayInTheLoop/StayInLoop";
 
 
 const Portfolio = () => {
@@ -122,6 +123,8 @@ const Portfolio = () => {
             </div>
 
             <HappyCus />
+
+            <StayInLoop />
         </div>
     );
 };

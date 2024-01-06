@@ -11,6 +11,7 @@ import vdeo from "../../assets/portfolio/Hero Video.png"
 import port1 from "../../assets/portfolio/port1.png"
 import port2 from "../../assets/portfolio/port2.png"
 import port3 from "../../assets/portfolio/port3.png"
+import HappyCus from "./HappyCus";
 
 
 const Portfolio = () => {
@@ -120,7 +121,7 @@ const Portfolio = () => {
                 <img className="md:w-[450px] md:h-[450px] object-cover rounded-lg" src={port3} alt="" />
             </div>
 
-
+            <HappyCus />
         </div>
     );
 };

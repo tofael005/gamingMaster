@@ -8,6 +8,9 @@ import News from "../Pages/News/News";
 import Contact from "../Log/Contact";
 import AllGame from "../components/TendingGame/AllGame";
 import ProjectAll from "../components/Project/ProjectAll";
+import ReadOne from "../Pages/Portfolio/ReadOne";
+import ReadTwo from "../Pages/Portfolio/ReadTwo";
+import ReadThree from "../Pages/Portfolio/ReadThree";
 
 const router = createBrowserRouter([
     {
@@ -42,6 +45,18 @@ const router = createBrowserRouter([
             {
                 path: "/projectAll",
                 element: <ProjectAll />
+            },
+            {
+                path: "/reed-more1",
+                element: <ReadOne />
+            },
+            {
+                path: "/reed-more2",
+                element: <ReadTwo />
+            },
+            {
+                path: "/reed-more3",
+                element: <ReadThree />
             }
         ])
     }

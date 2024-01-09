@@ -88,7 +88,7 @@ const Portfolio = () => {
                     <p className="md:text-justify mb-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia  consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta.</p>
 
 
-                    <Link to="/reed-more1"><input className="cursor-pointer hover:bg-[#221F39] duration-300 md:text-lg rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
+                    <Link to="/reed-more1"><input className="cursor-pointer hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
                 </div>
                 <img className="md:w-[450px] md:h-[450px] object-cover rounded-lg" src={port1} alt="" />
             </div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                     <p className="md:text-justify mb-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia  consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta.</p>
 
 
-                    <Link to="/reed-more1"><input className="cursor-pointer hover:bg-[#221F39] duration-300 md:text-lg rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
+                    <Link to="/reed-more2"><input className="cursor-pointer hover:bg-[#2e2a4e] duration-300 md:text-md rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
                 </div>
             </div>
 
@@ -117,7 +117,7 @@ const Portfolio = () => {
                     <p className="md:text-justify mb-10 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor officia repellendus dolorum pariatur minus dicta sint dolorem sit odio, omnis impedit quod dignissimos incidunt! Dolore, blanditiis similique? Dicta.</p>
 
 
-                    <Link to="/reed-more1"><input className="cursor-pointer hover:bg-[#221F39] duration-300 md:text-lg rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
+                    <Link to="/reed-more3"><input className="cursor-pointer hover:bg-[#37325d] duration-300 md:text-md rounded-md hover:text-blue-400 text-white font-semibold bg-red-600 px-7 py-2 rounded'" type="button" value="Reed More" /></Link>
                 </div>
                 <img className="md:w-[450px] md:h-[450px] object-cover rounded-lg" src={port3} alt="" />
             </div>

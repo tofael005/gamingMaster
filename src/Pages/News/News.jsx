@@ -132,7 +132,7 @@ const News = () => {
                                 <button className="bg-orange-400 p-2 rounded-md hover:bg-[#363156] duration-300">John Morc</button>
                                 <p>.5min</p>
                             </div>
-                            <h1 className="md:text-2xl text-xl">Lorem Ipsum is simply dummy text dummy text ? </h1>
+                            <h1 className="md:text-2xl text-xl">Lorem Ipsum is simply dummy text dummy text. </h1>
                         </div>
                     </div>
                 </div>

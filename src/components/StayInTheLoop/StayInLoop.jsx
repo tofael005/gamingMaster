@@ -1,5 +1,6 @@
 
 
+
 const StayInLoop = () => {
     return (
         <div className="max-w-[1240px] mx-auto md:mt-20 mt-10 px-3">
@@ -11,10 +12,13 @@ const StayInLoop = () => {
                     <p>Subscribe to receive the latest news and updates about TDA. <br /> We promise not to spam you! </p>
                 </div>
                 <div className=" ">
-                    <input className="w-[300px] md:w-[300px] p-3 rounded-md bg-black relative" type="email" name="email" id="" placeholder="Enter email address"/>
-                    <input className="bg-red-600 text-white p-3 rounded-md absolute right-[40px] md:right-[150px] cursor-pointer hover:bg-[#221F39] duration-300" type="button" value="Submit" />
+                    <input className="w-[300px] md:w-[300px] p-3 rounded-md bg-black relative" type="email" name="email" id="" placeholder="Enter email address" />
+                    <div>
+                        <input className="bg-red-600 text-white p-3 rounded-md absolute right-[40px] md:right-[150px] cursor-pointer hover:bg-[#221F39] duration-300" type="button" value="Submit" />
+
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     );

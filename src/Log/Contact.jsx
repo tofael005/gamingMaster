@@ -7,7 +7,12 @@ import { ImLocation } from "react-icons/im";
 import global from "../assets/contact/Huge Global.png"
 
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Contact = () => {
+    const notify = () => toast("Submit Success!");
     return (
         <div className="max-w-[1240px] mx-auto md:mt-16 mt-10 px-3 md:px-0">
             <div className="flex items-center gap-2">
@@ -70,7 +75,8 @@ const Contact = () => {
                     <label htmlFor="">Massege</label><br />
                     <textarea className="mt-1 w-full rounded-md" name="text" id="" cols="10" rows="10"></textarea>
 
-                    <button className="text-center hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800">Continue</button>
+                    <button onClick={notify} className="text-center hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800">Continue</button>
+                    <ToastContainer />
                 </form>
             </div>
 

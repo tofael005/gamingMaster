@@ -29,22 +29,22 @@ const Contact = () => {
                     <div>
                         <h1 className="font-bold">Follow us</h1>
                         <div className="flex gap-4 items-center md:mt-5">
-                            <FaFacebook className="text-3xl"/>
-                            <FaInstagram className="text-3xl"/>
-                            <FaTwitter className="text-3xl"/>
-                            <FaLinkedinIn className="text-3xl"/>
+                            <FaFacebook className="text-3xl" />
+                            <FaInstagram className="text-3xl" />
+                            <FaTwitter className="text-3xl" />
+                            <FaLinkedinIn className="text-3xl" />
                         </div>
                     </div>
                 </div>
                 <div className="md:w-[400px]">
                     <div className="flex gap-4 items-center">
-                        <FiPhoneCall className="text-3xl"/>
+                        <FiPhoneCall className="text-3xl" />
                         <h1>+880 1966 406795</h1>
                     </div>
                 </div>
                 <div className="md:w-[400px]">
                     <div className="flex gap-4 items-center">
-                        <ImLocation className="text-3xl"/>
+                        <ImLocation className="text-3xl" />
                         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi .</h1>
                     </div>
                 </div>
@@ -52,8 +52,26 @@ const Contact = () => {
 
 
             {/* CONTACT FORM  */}
-            <div className="md:mt-16 mt-10">
-                <h1>Contact form</h1>
+            <div className="md:mt-28 mt-10 md:w-[600px] mx-auto border bg-black p-5 rounded-md">
+                <form>
+                    <span className="flex flex-col md:flex-row justify-between mb-4">
+                        <div>
+                            <label htmlFor="">First name</label>
+                            <input className="w-full p-2 rounded-md mt-1" type="text" name="name" id="" placeholder="First name" />
+                        </div>
+                        <div>
+                            <label htmlFor="">Last name</label>
+                            <input className="w-full p-2 rounded-md mt-1" type="text" name="name" placeholder="Last name" />
+                        </div>
+                    </span>
+                    <label htmlFor="">Email</label> <br />
+                    <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="email" id="" placeholder="Enter email" />
+
+                    <label htmlFor="">Massege</label><br />
+                    <textarea className="mt-1 w-full rounded-md" name="text" id="" cols="10" rows="10"></textarea>
+
+                    <button className="text-center hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800">Continue</button>
+                </form>
             </div>
 
         </div>

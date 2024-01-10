@@ -1,5 +1,8 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
+import { ImLocation } from "react-icons/im";
 
 import global from "../assets/contact/Huge Global.png"
 
@@ -13,11 +16,46 @@ const Contact = () => {
             </div>
             <div className="md:mt-10 mt-14">
                 <div className="md:mb-10 mb-10 text-center">
-                    <h1 className="md:text-3xl font-bold my-6">Lorem Ipsum is simply dummy text of the printing and.</h1>
+                    <h1 className="md:text-3xl font-bold my-4">Lorem Ipsum is simply dummy text of the printing and.</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 </div>
                 <img className="md:w-full md:h-[70vh] object-cover" src={global} alt="" />
             </div>
+
+
+            {/* FOLLOW US  */}
+            <div className="grid md:grid-cols-3 gap-6 items-center md:mt-16 mt-10">
+                <div className="md:w-[400px]">
+                    <div>
+                        <h1 className="font-bold">Follow us</h1>
+                        <div className="flex gap-4 items-center md:mt-5">
+                            <FaFacebook className="text-3xl"/>
+                            <FaInstagram className="text-3xl"/>
+                            <FaTwitter className="text-3xl"/>
+                            <FaLinkedinIn className="text-3xl"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="md:w-[400px]">
+                    <div className="flex gap-4 items-center">
+                        <FiPhoneCall className="text-3xl"/>
+                        <h1>+880 1966 406795</h1>
+                    </div>
+                </div>
+                <div className="md:w-[400px]">
+                    <div className="flex gap-4 items-center">
+                        <ImLocation className="text-3xl"/>
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi .</h1>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* CONTACT FORM  */}
+            <div className="md:mt-16 mt-10">
+                <h1>Contact form</h1>
+            </div>
+
         </div>
     );
 };

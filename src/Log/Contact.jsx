@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
                 <div className="md:w-[400px]">
                     <div className="flex gap-4 items-center">
-                        <ImLocation className="text-3xl" />
+                        <ImLocation className="text-4xl" />
                         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quasi .</h1>
                     </div>
                 </div>
@@ -52,16 +52,16 @@ const Contact = () => {
 
 
             {/* CONTACT FORM  */}
-            <div className="md:mt-28 mt-10 md:w-[600px] mx-auto border bg-black p-5 rounded-md">
+            <div className="md:mt-28 mt-10 md:w-[700px] mx-auto bg-black p-5 rounded-md">
                 <form>
-                    <span className="flex flex-col md:flex-row justify-between mb-4">
+                    <span className="flex flex-col md:flex-row gap-5 justify-between mb-4">
                         <div>
-                            <label htmlFor="">First name</label>
-                            <input className="w-full p-2 rounded-md mt-1" type="text" name="name" id="" placeholder="First name" />
+                            <label htmlFor="">First name</label><br />
+                            <input className="md:w-[310px] w-full p-2 rounded-md mt-1" type="text" name="name" id="" placeholder="First name" />
                         </div>
                         <div>
-                            <label htmlFor="">Last name</label>
-                            <input className="w-full p-2 rounded-md mt-1" type="text" name="name" placeholder="Last name" />
+                            <label htmlFor="">Last name</label><br />
+                            <input className="md:w-[330px] w-full p-2 rounded-md mt-1" type="text" name="name" placeholder="Last name" />
                         </div>
                     </span>
                     <label htmlFor="">Email</label> <br />

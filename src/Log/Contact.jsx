@@ -90,7 +90,8 @@ const Contact = () => {
                     <label className="text-white">Email</label> <br />
                     <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="from_email" id="" value={from_email} onChange={(e) => setFrom_email(e.target.value)} placeholder="Enter email" />
 
-                    
+                    <label className="text-white">Massege</label><br />
+                    <textarea className="mt-1 w-full text-black p-2 rounded-md" name="message" id="" cols="10" rows="10" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Enter message"></textarea>
 
                     <input  onClick={alert} className="text-center text-white cursor-pointer hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800" type="submit" value="Send" />
                 </form>

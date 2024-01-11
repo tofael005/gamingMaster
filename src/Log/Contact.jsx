@@ -82,10 +82,10 @@ const Contact = () => {
 
 
             {/* CONTACT FORM  */}
-            <div className="md:mt-28 mt-10 md:w-[700px] mx-auto bg-black text-black p-5 rounded-md">
+            <div className="md:mt-28 mt-10 md:w-[700px] mx-auto bg-black/30 text-black p-8 rounded-md">
                 <form ref={form} onSubmit={sendEmail}>
                     <label className="text-white">Name</label><br />
-                    <input className="w-full p-2 rounded-md mt-1" type="text" name="from_name" id="" value={from_name} onChange={(e) => setFrom_name(e.target.value)} placeholder="Enter name" />
+                    <input className="w-full p-2 rounded-md mt-1 mb-4" type="text" name="from_name" id="" value={from_name} onChange={(e) => setFrom_name(e.target.value)} placeholder="Enter name" />
 
                     <label className="text-white">Email</label> <br />
                     <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="from_email" id="" value={from_email} onChange={(e) => setFrom_email(e.target.value)} placeholder="Enter email" />

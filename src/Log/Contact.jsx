@@ -5,14 +5,39 @@ import { FiPhoneCall } from "react-icons/fi";
 import { ImLocation } from "react-icons/im";
 
 import global from "../assets/contact/Huge Global.png"
+import Swal from "sweetalert2";
 
-
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import emailjs from '@emailjs/browser';
+import { useRef, useState } from "react";
 
 
 const Contact = () => {
-    const notify = () => toast("Submit Success!");
+    const form = useRef();
+    const [from_name, setFrom_name] = useState(" ");
+    const [from_email, setFrom_email] = useState(" ");
+    const [message, setMessage] = useState(" ");
+
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        setFrom_name(" ");
+        setFrom_email(" ");
+        setMessage(" ");
+        emailjs.sendForm('service_9uojqas', 'template_gqw9x2s', form.current, 'j_ecYPOBb7wFf4Jf7')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+    function alert() {
+        Swal.fire({
+            title: "DONE",
+            text: "Submit success!",
+            icon: "success"
+        });
+    }
     return (
         <div className="max-w-[1240px] mx-auto md:mt-16 mt-10 px-3 md:px-0">
             <div className="flex items-center gap-2">
@@ -57,26 +82,17 @@ const Contact = () => {
 
 
             {/* CONTACT FORM  */}
-            <div className="md:mt-28 mt-10 md:w-[700px] mx-auto bg-black p-5 rounded-md">
-                <form>
-                    <span className="flex flex-col md:flex-row gap-5 justify-between mb-4">
-                        <div>
-                            <label htmlFor="">First name</label><br />
-                            <input className="md:w-[310px] w-full p-2 rounded-md mt-1" type="text" name="name" id="" placeholder="First name" />
-                        </div>
-                        <div>
-                            <label htmlFor="">Last name</label><br />
-                            <input className="md:w-[330px] w-full p-2 rounded-md mt-1" type="text" name="name" placeholder="Last name" />
-                        </div>
-                    </span>
-                    <label htmlFor="">Email</label> <br />
-                    <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="email" id="" placeholder="Enter email" />
+            <div className="md:mt-28 mt-10 md:w-[700px] mx-auto bg-black text-black p-5 rounded-md">
+                <form ref={form} onSubmit={sendEmail}>
+                    <label className="text-white">Name</label><br />
+                    <input className="w-full p-2 rounded-md mt-1" type="text" name="from_name" id="" value={from_name} onChange={(e) => setFrom_name(e.target.value)} placeholder="Enter name" />
 
-                    <label htmlFor="">Massege</label><br />
-                    <textarea className="mt-1 w-full rounded-md" name="text" id="" cols="10" rows="10"></textarea>
+                    <label className="text-white">Email</label> <br />
+                    <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="from_email" id="" value={from_email} onChange={(e) => setFrom_email(e.target.value)} placeholder="Enter email" />
 
-                    <button onClick={notify} className="text-center hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800">Continue</button>
-                    <ToastContainer />
+                    
+
+                    <input  onClick={alert} className="text-center text-white cursor-pointer hover:bg-[#2c284a] duration-300 md:text-md rounded-md hover:text-blue-400 mx-auto mt-6 w-full p-2 bg-blue-800" type="submit" value="Send" />
                 </form>
             </div>
 

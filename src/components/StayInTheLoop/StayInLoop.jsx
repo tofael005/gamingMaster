@@ -1,7 +1,9 @@
+
 import Swal from "sweetalert2";
 
 
 const StayInLoop = () => {
+
     function alert() {
         Swal.fire({
             title: "DONE",
@@ -19,9 +21,11 @@ const StayInLoop = () => {
                     <p>Subscribe to receive the latest news and updates about TDA. <br /> We promise not to spam you! </p>
                 </div>
                 <div className=" ">
-                    <input className="w-[300px] md:w-[300px] p-3 rounded-md bg-black relative" type="email" name="email" id="" placeholder="Enter email address" />
+                    <form action="">
+                        <input className="w-[300px] md:w-[300px] p-3 rounded-md bg-black relative" type="email" name="email" id="" placeholder="Enter email address" />
 
-                    <input onClick={alert} className="bg-red-600 text-white p-3 rounded-md absolute right-[40px] md:right-[150px] cursor-pointer hover:bg-[#221F39] duration-300" type="button" value="Submit" />
+                        <input onClick={alert} className="bg-red-600 text-white p-3 rounded-md absolute right-[40px] md:right-[150px] cursor-pointer hover:bg-[#221F39] duration-300" type="button" value="Submit" />
+                    </form>
 
 
                 </div>

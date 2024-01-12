@@ -16,6 +16,7 @@ const Contact = () => {
     const [from_name, setFrom_name] = useState(" ");
     const [from_email, setFrom_email] = useState(" ");
     const [message, setMessage] = useState(" ");
+    const [from_number, setFrom_number] = useState(" ");
 
 
     const sendEmail = (e) => {
@@ -23,6 +24,7 @@ const Contact = () => {
         setFrom_name(" ");
         setFrom_email(" ");
         setMessage(" ");
+        setFrom_number(" ");
         emailjs.sendForm('service_9uojqas', 'template_gqw9x2s', form.current, 'j_ecYPOBb7wFf4Jf7')
             .then((result) => {
                 console.log(result.text);
@@ -89,6 +91,10 @@ const Contact = () => {
 
                     <label className="text-white">Email</label> <br />
                     <input className="mt-1 p-2 rounded-md w-full mb-4" type="email" name="from_email" id="" value={from_email} onChange={(e) => setFrom_email(e.target.value)} placeholder="Enter email" />
+
+                    <label className="text-white">Number</label> <br />
+                    <input className="mt-1 p-2 rounded-md w-full mb-4" type="number" name="from_number" id="" value={from_number} onChange={(e) => setFrom_number(e.target.value)} placeholder="Enter number" />
+                   
 
                     <label className="text-white">Massege</label><br />
                     <textarea className="mt-1 w-full text-black p-2 rounded-md" name="message" id="" cols="10" rows="10" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Enter message"></textarea>

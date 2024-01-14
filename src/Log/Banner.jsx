@@ -36,7 +36,7 @@ const Banner = () => {
              bg-black/60 backdrop-brightness-100"'>
               <p className='md:mt-36 mt-4 text-red-400 font-semibold'>Proved By prodesigner</p>
               <h1 className='md:text-5xl font-bold md:my-5 text-2xl'>Work that we produce for our clients</h1>
-              <p className='text-transparent md:text-white'>Play the game, learn, thrive, and repeat. Be calm, be a gamer be a game lover. Life is too short to play a bad game. The future is a game.</p>
+              <p className='text-transparent md:text-white'>Play the game, learn, thrive, and repeat. Be calm be a gamer be a game lover. Life is too short to play a bad game. The future is a game.</p>
               <Link to="/about">
                 <input className='cursor-pointer absolute top-[70px] right-[95px] md:right-[626px] md:top-[300px] hover:bg-[#221F39] mt-12 duration-300 md:text-xl hover:text-blue-400 font-semibold bg-blue-900 px-7 py-2 rounded' type="button" value="Get more details" />
               </Link>

@@ -30,8 +30,7 @@ const Banner = () => {
         className="mySwiper md:h-[85vh]"
       >
         <SwiperSlide>
-
-          <div>
+          <div className='flex gap-10'>
             <img className='object-cover relative md:h-full md:w-full' src={ban1} alt="" />
             <div className='absolute text-white px-3 left-0 top-0 text-center w-full h-full
              bg-black/60 backdrop-brightness-100"'>

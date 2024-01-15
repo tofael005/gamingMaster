@@ -1,9 +1,13 @@
 
 
-const SingleGame = () => {
+const SingleGame = ({ game }) => {
+    const { img, title, rating, follower } = game;
     return (
-        <div className="max-w-[1240px] mx-auto md:mt-16 mt-10 px-3 md:px-0">
-            <h1>Single Game</h1>
+        <div className="max-w-[1240px] mx-auto mt-10 px-3 md:px-0">
+            <div>
+                <img className="md:w-full relative md:h-full w-full h-full rounded-md" src={img} alt="" />
+                <h1>{title}</h1>
+            </div>
         </div>
     );
 };

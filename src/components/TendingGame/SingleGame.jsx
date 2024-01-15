@@ -7,7 +7,7 @@ const SingleGame = ({ game }) => {
             <div>
                 <img className="md:w-full relative md:h-full w-full h-full rounded-md" src={img} alt="" />
                 <h1>{title}</h1>
-                <div className="">
+                <div className="flex items-center justify-between">
                     <h1>Rating:</h1>
                     <p>{rating}</p>
                 </div>

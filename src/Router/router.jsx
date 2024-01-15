@@ -11,6 +11,8 @@ import ProjectAll from "../components/Project/ProjectAll";
 import ReadOne from "../Pages/Portfolio/ReadOne";
 import ReadTwo from "../Pages/Portfolio/ReadTwo";
 import ReadThree from "../Pages/Portfolio/ReadThree";
+import Viewgame from "../components/TendingGame/Viewgame";
+import Addtocart from "../components/TendingGame/Addtocart";
 
 const router = createBrowserRouter([
     {
@@ -57,6 +59,14 @@ const router = createBrowserRouter([
             {
                 path: "/reed-more3",
                 element: <ReadThree />
+            },
+            {
+                path: "/viewCart",
+                element: <Viewgame />
+            },
+            {
+                path: "/addCart",
+                element: <Addtocart />
             }
         ])
     }

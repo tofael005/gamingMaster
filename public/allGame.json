@@ -3,36 +3,42 @@
         "title" : "2BMB Combart Action",
         "img" : "https://i.ibb.co/qmBWkwN/action-games-1920-x-1080-wallpaper-yenywc6jb40c2bmt.jpg",
         "rating" : "4.9",
-        "follower" : "21334"
+        "follower" : "21334",
+        "price" : "1001"
     },
     {
         "title" : "PUBG Action",
         "img" : "https://i.ibb.co/56YbqpW/img-og-pubg.jpg",
         "rating" : "4.7",
-        "follower" : "324565"
+        "follower" : "324565",
+        "price" : "1501"
     },
     {
         "title" : "Fear War Action",
         "img" : "https://i.ibb.co/Z24jSRF/gears-of-war-4-horde-ad.jpg",
         "rating" : "5.0",
-        "follower" : "54215"
+        "follower" : "54215",
+        "price" : "2003"
     },
     {
         "title" : "Real Football",
         "img" : "https://i.ibb.co/7y0dHj5/cover-1679938036686.jpg",
         "rating" : "4.6",
-        "follower" : "65342"
+        "follower" : "65342",
+        "price" : "1001"
     },
     {
         "title" : "Assisiation Action",
         "img" : "https://i.ibb.co/jwN1SJ6/2-wp3234173.jpg",
         "rating" : "5.0",
-        "follower" : "96723"
+        "follower" : "96723",
+        "price" : "5051"
     },
     {
         "title" : "Bubble Shooter",
         "img" : "https://i.ibb.co/xj2ZJpd/bubble-shooter.webp",
         "rating" : "4.8",
-        "follower" : "907654"
+        "follower" : "907654",
+        "price" : "578"
     }
 ]

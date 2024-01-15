@@ -1,5 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { ImLocation } from "react-icons/im";
@@ -17,6 +17,7 @@ const Contact = () => {
     const [from_email, setFrom_email] = useState(" ");
     const [message, setMessage] = useState(" ");
     const [from_number, setFrom_number] = useState(" ");
+    const navigate = useNavigate()
 
 
     const sendEmail = (e) => {
@@ -30,6 +31,7 @@ const Contact = () => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
+                navigate("/home")
             });
     };
 
@@ -44,7 +46,7 @@ const Contact = () => {
         <div className="max-w-[1240px] mx-auto md:mt-16 mt-10 px-3 md:px-0">
             <div className="flex items-center gap-2">
                 <Link to="/"><h1 className="flex items-center gap-2 cursor-pointer scale-100 hover:scale-95 duration-300">Home <IoIosArrowForward /></h1></Link>
-                <Link to="/about"><p className="text-sm text-red-600 cursor-pointer">Portfolio</p></Link>
+                <Link to="/about"><p className="text-sm text-red-600 cursor-pointer">Contact</p></Link>
             </div>
             <div className="md:mt-10 mt-14">
                 <div className="md:mb-10 mb-10 text-center">

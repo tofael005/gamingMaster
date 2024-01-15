@@ -1,4 +1,4 @@
-
+import { GiDistraction } from "react-icons/gi";
 
 const SingleGame = ({ game }) => {
     const { img, title, rating, follower } = game;
@@ -10,6 +10,10 @@ const SingleGame = ({ game }) => {
                 <div className="flex items-center justify-between">
                     <h1>Rating:</h1>
                     <p>{rating}</p>
+                </div>
+                <div>
+                <GiDistraction />
+                <p>{follower}</p>
                 </div>
             </div>
         </div>

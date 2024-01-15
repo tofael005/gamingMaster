@@ -7,6 +7,10 @@ const SingleGame = ({ game }) => {
             <div>
                 <img className="md:w-full relative md:h-full w-full h-full rounded-md" src={img} alt="" />
                 <h1>{title}</h1>
+                <div>
+                    <h1>Rating:</h1>
+                   
+                </div>
             </div>
         </div>
     );

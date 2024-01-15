@@ -9,7 +9,7 @@ const SingleGame = ({ game }) => {
                 <h1>{title}</h1>
                 <div>
                     <h1>Rating:</h1>
-                   
+                    <p>{rating}</p>
                 </div>
             </div>
         </div>
